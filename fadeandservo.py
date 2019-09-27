@@ -1,10 +1,10 @@
 # Write your code here :-)
-import board
-import neopixel
+import board #pylint: disable-msg=import-error
+import neopixel #pylint: disable-msg=import-error
 import time
-import pulseio
-import touchio
-from adafruit_motor import servo
+import pulseio #pylint: disable-msg=import-error
+import touchio #pylint: disable-msg=import-error
+from adafruit_motor import servo #pylint: disable-msg=import-error
 
 angle = 90
 
