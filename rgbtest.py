@@ -1,5 +1,5 @@
 import time
-import board
+import board #pylint: disable-msg=import-error
 from rgb import RGB   # import the RGB class from the rgb module
 
 r1 = board.D10
