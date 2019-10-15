@@ -10,7 +10,7 @@ b1 = board.D10
 b2 = board.D9
 b3 = board.D8
 
-fancy1 = fancyLED(f1,f2,f3)#creating an abject with the above pins
+fancy1 = fancyLED(f1,f2,f3)#creating an object with the above pins
 fancy2 = fancyLED(b1,b2,b3)
 
 while True:#loop forever
