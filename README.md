@@ -8,6 +8,7 @@ This project was also fairly straight forward for me. The goal was to have a ser
 <br><img src="media/servo.jpg" width="300">
 ## LCD screen
 I had a bit of trouble with this one. The goal was to make the screen display a number that would count up if a switch was one way and down if it was the other. I had trouble clearing the screen after the number increased or decreased. This meant that I would have left over negative signs or zeros that shouldn't have been there. The problem turned out to be that I wasn't printing enough spaces.
+<br><img src="media/lcdcount.jpg" width="300">
 ## Distance Sensor
 I had a tough time with this one. The goal was to have the metro's onboard led change color according to the distance an ultrasonic sensor was reading. I decided to use hue, saturation, value instead of RGB and it took me a while to find a suitable library. After that I needed some functions that I didn't have and needed to make myself. Another problem I had was that the colors were opposite to what I wanted, for example, I wanted it red when it was close and green when it was far away, but it was the opposite. All I had to do was switch the distance values inside my map function.
 <br><img src="media/ultrasonicsensor.jpg" width="300">
