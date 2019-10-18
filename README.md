@@ -1,5 +1,5 @@
-# Projects
-Here are all the projects I've done so far. I'm probably working on one now!:squirrel: <br>Check the code for comments and more detailed descriptions of solutions.
+# CircuitPython Assignments
+Check the code for comments and more detailed descriptions of solutions.
 ## [Fade](/fade.py)
 This project was relatively staightforward, only requiring that we get an led to fade on and off. The difficulty came in using a different language and editor than normal. Also, duty cycles were completely new and took me a little bit to grasp. The only wiring this project needed was one led.
 <br><img src="media/fade.jpg" width="300">
